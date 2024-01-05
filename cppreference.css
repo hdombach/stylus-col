@@ -1,0 +1,152 @@
+@-moz-document domain("cppreference.com") {
+html:not(.light_mode) {
+    --background: #2b2b2b;
+    --background2: #262626;
+    --prim: #b1b1b1;
+    --sec: #5b5b5b;
+    --link: #7084d3;
+    --link-v: #7e6eae;
+    --field: #989898;
+    --field-bg: #404040;
+    
+    --gruv-bg: #282828;
+    --gruv-red: #cc241d;
+    --gruv-green: #98971a;
+    --gruv-yellow: #d79921;
+    --gruv-blue: #458588;
+    --gruv-purple: #b16286;
+    --gruv-aqua: #689d6a;
+    --gruv-gray: #a89984;
+    
+    --gruv-gray2: #928374;
+    --gruv-red2: #fb4934;
+    --gruv-green2: #b8bb26;
+    --gruv-yellow2: #fabd2f;
+    --gruv-blue2: #83a598;
+    --gruv-purple2: #d3869b;
+    --gruv-aqua2: #8ec07c;
+    
+    --gruv-fg: #ebdbb2;
+    --gruv-bg0-h: #1d2021;
+    --gruv-bg0-s: #32302f;
+    --gruv-bg0: #282828;
+    --gruv-bg1: #3c3836;
+    --gruv-bg2: #504945;
+    --gruv-bg3: #665c54;
+    --gruv-bg4: #7c6f64;
+    
+    --gruv-orange: #d65d0e;
+    --gruv-orange2: #fe8019;
+    
+    --gruv-fg4: #a89984;
+    --gruv-fg3: #bdae93;
+    --gruv-gruv-fg2: #d5c4a1;
+    --gruv-fg1: #ebdbb2;
+    --gruv-fg0: #fbf1c7;
+    
+    --c-comment: var(--gruv-bg4);
+    --c-identifier: var(--gruv-fg);
+    --c-type: var(--gruv-yellow);
+    --c-macro: var(--gruv-aqua);
+    --c-operator: var(--gruv-fg);
+    --c-num: var(--gruv-blue);
+    --c-brace: var(--gruv-fg1);
+    --c-keyword: var(--gruv-red2);
+    --c-string: var(--gruv-green);
+    --c-back: var(--gruv-bg);
+}
+
+html, div, h1, tbody, td, .mw-headline, body {
+    background: var(--background) !important;
+    color: var(--prim) !important;
+    border-color: var(--sec) !important;
+}
+
+.t-rev-inl {
+    border-color: var(--sec) !important;
+}
+
+th, .t-c {
+    background: var(--background2) !important;
+    color: var(--prim) !important;
+    border-color: var(--sec) !important;
+}
+
+a, li {
+    background: var(--background) !important;
+    color: var(--link) !important;
+}
+
+a:visited {
+    color: var(--link-v);
+}
+
+.new {
+    background: var(--background) !important;
+    color: var(--link) !important;
+}
+
+
+input {
+    background: var(--field-bg) !important;
+    box-shadow: inset 0 0 1em #00000045;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: var(--field);
+    color: var(--prim);
+}
+
+input:active {
+    border-color: var(--prim);
+}
+
+.t-navbar-menu > div {
+    box-shadow: 0 0 2em #0000004d;
+    border-width: 1px;
+    border-color: var(--sec) !important;
+}
+
+
+.mw-geshi {
+    color: var(--c-primary) !important;
+    box-shadow: inset 0 0 1em #00000045;
+    background: var(--c-back) !important;
+}
+.de1 {
+    background: var(--c-back) !important;
+}
+.de1 {
+    color: var(--gruv-fg) !important;
+}
+.co1, .coMULTI {
+    color: var(--c-comment) !important;
+}
+.kw4 {
+    color: var(--c-type) !important;
+}
+.co2 {
+    color: var(--c-macro) !important;
+}
+.sy1 {
+    color: var(--c-operator) !important;
+}
+.nu0 {
+    color: var(--c-num) !important;
+}
+.kw851, .kw836, .kw405, .kw403, pre > a {
+    color: var(--c-identifier) !important;
+}
+.br0 {
+    color: var(--c-brace) !important;
+}
+.sy2, .sy3 {
+    color: var(--c-operator) !important;
+}
+.kw1, .kw2 {
+    color: var(--c-keyword) !important;
+}
+.st0, .es1 {
+    color: var(--c-string) !important;
+}
+}
